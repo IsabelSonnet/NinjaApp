@@ -1,5 +1,4 @@
 #cop {
-<<<<<<< HEAD
     position: relative;
     height: 100px;
     width: 100px;
@@ -7,20 +6,12 @@
 }
 #copimg {
     display: block;
-    position: relative;
-=======
     position: absolute;
->>>>>>> master/master
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 #robber {
-<<<<<<< HEAD
-    display: block;
-=======
-    position: absolute;
->>>>>>> master/master
     height: 100px;
     width: 100px;
     margin 6%;
