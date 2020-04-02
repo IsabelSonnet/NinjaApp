@@ -1,12 +1,10 @@
 #cop {
-    background: white;
     display: block;
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 #robber {
-    background: white;
     display: block;
     height: 100px;
     width: 100px;
