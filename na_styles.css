@@ -1,24 +1,11 @@
-#cop {
+#ninja {
     display: block;
     position: absolute;
     height: 100px;
     width: 100px;
     margin: 6%;
 }
-#copimg {
-    position: relative;
-    height: 100px;
-    width: 100px;
-    margin: 6%;
-}
-#robber {
-    display: block;
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    margin 6%;
-}
-#robberimg {
+#ninjaimg {
     position: relative;
     height: 100px;
     width: 100px;

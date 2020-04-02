@@ -3,7 +3,7 @@ $(document).ready(() => {
 $(document).keydown(function (event) {
     var keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode == '39') {
-        $("#cop").animate({
+        $("#ninja").animate({
             left: '+=10px',
         });
     }
@@ -12,7 +12,7 @@ $(document).keydown(function (event) {
 $(document).keydown(function (event) {
     var keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode == '37') {
-        $("#cop").animate({
+        $("#ninja").animate({
             right: '+=10px',
         });
     }
