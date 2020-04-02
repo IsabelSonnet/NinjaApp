@@ -15,28 +15,13 @@
 //        });
 //    });
 //});
-<<<<<<< HEAD
-$(document).keydown(function (event) {
-    var keycode = (event.keyCode ? event.keyCode : event.which);
-    if (keycode == '39') {
-        $("#cop").animate({
-            left: '+=10px',
-        });
-    }
-=======
+
 $(document).ready(() => {
 
-$(document).keydown(function(event){
-     var keycode = (event.keyCode ? event.keyCode : event.which);
-                if(keycode == '39'){
-                    $("#copimg").animate({
-                         left: '+=10px',
-                    });
-                }else if(keycode == '100'){
-                    $("#robberimg").animate({
-                         left: '+=10px',
-                    });
-});
-
->>>>>>> origin/master
-});
+    $(document).keydown(function (event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '39') {
+            $("#copimg").animate({
+                left: '+=10px',
+            });
+    }

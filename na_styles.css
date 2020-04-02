@@ -5,19 +5,18 @@
     margin: 6%;
 }
 #copimg {
-    display: block;
-    position: absolute;
+    position: relative;
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 #robber {
+    position: relative;
     height: 100px;
     width: 100px;
     margin 6%;
 }
 #robberimg {
-    display: block;
     position: relative;
     height: 100px;
     width: 100px;
