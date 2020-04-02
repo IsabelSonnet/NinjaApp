@@ -1,5 +1,6 @@
 #cop {
-    position: relative;
+    display: block;
+    position: absolute;
     height: 100px;
     width: 100px;
     margin: 6%;
@@ -11,7 +12,12 @@
     margin: 6%;
 }
 #robber {
+<<<<<<< HEAD
+    display: block;
+    position: absolute;
+=======
     position: relative;
+>>>>>>> origin/master
     height: 100px;
     width: 100px;
     margin 6%;
