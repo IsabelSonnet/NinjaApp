@@ -15,6 +15,7 @@
 //        });
 //    });
 //});
+<<<<<<< HEAD
 $(document).keydown(function (event) {
     var keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode == '39') {
@@ -56,3 +57,15 @@ $(document).keydown(function (event) {
 //
 //>>>>>>> origin/master
 //});
+=======
+
+$(document).ready(() => {
+
+    $(document).keydown(function (event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '39') {
+            $("#copimg").animate({
+                left: '+=10px',
+            });
+    }
+>>>>>>> origin/master
