@@ -1,11 +1,19 @@
 #cop {
+<<<<<<< HEAD
     display: block;
+=======
+    display: inherit;
+>>>>>>> master/master
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 #robber {
+<<<<<<< HEAD
     display: block;
+=======
+    display: inherit;
+>>>>>>> master/master
     height: 100px;
     width: 100px;
     margin 6%;
