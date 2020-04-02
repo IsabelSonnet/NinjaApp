@@ -1,23 +1,28 @@
 #cop {
-<<<<<<< HEAD
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 6%;
+}
+#copimg {
     display: block;
-=======
-    display: inherit;
->>>>>>> master/master
+    position: relative;
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 #robber {
-<<<<<<< HEAD
     display: block;
-=======
-    display: inherit;
->>>>>>> master/master
     height: 100px;
     width: 100px;
     margin 6%;
-
+}
+#robberimg {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 6%;
 }
 
 body {
