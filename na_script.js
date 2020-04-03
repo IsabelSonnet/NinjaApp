@@ -35,10 +35,8 @@ $(document).ready(() => {
             });
         }
     });
-});
 
-<<<<<<< HEAD
-$(document).ready(() => {
+
     $(document).keydown(function (event) {
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if (keycode == '68') {
@@ -74,12 +72,10 @@ $(document).ready(() => {
         }
     });
 
-=======
 $("#start").click(function () {
     $("p").animate({
       height: 'toggle'
     });
 });
->>>>>>> origin/master
 
 });
