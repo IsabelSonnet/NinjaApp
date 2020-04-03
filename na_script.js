@@ -10,7 +10,6 @@ $(document).keydown(function (event) {
 });
 
 $(document).keydown(function (event) {
-    var keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode == '37') {
         $("#ninja").animate({
             right: '+=10px',
@@ -19,3 +18,4 @@ $(document).keydown(function (event) {
 });
 
 });
+//({ left: "0" }, "fast")
