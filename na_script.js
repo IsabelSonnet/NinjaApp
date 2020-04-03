@@ -33,4 +33,10 @@ $(document).keydown(function (event) {
     }
 });
 
+$("#start").click(function () {
+    $("p").animate({
+      height: 'toggle'
+    });
+});
+
 });
