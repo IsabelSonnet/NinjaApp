@@ -36,6 +36,10 @@ $(document).ready(() => {
         }
     });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     $(document).keydown(function (event) {
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if (keycode == '68') {
