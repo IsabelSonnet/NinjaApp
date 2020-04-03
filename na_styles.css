@@ -29,3 +29,17 @@
 body {
     background-image: URL("https://live.staticflickr.com/3241/2689916322_01a2e102a1_b.jpg");
 }
+
+p {
+    background: black;
+    color: white;
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+#start {
+
+}
