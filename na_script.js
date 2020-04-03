@@ -34,4 +34,3 @@ $(document).keydown(function (event) {
 });
 
 });
-//({ left: "0" }, "fast")
