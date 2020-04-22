@@ -72,10 +72,28 @@ $(document).ready(() => {
         }
     });
 
-$("#start").click(function () {
-    $("p").animate({
-      height: 'toggle'
+    $("#start").click(function () {
+        $("#inst").animate({
+            height: 'toggle'
+        });
     });
-});
+
+    let nx = $("#ninja").offset().left;
+    let nw = $("#ninja").width();
+    let ny = $("#ninja").offset().top;
+    let nh = $("#ninja").height();
+
+    let cx = $("#cop").offset().left;
+    let cw = $("#cop").width();
+    let cy = $("#cop").offset().top;
+    let ch = $("#cop").height();
+
+    $(document).keydown (function () {
+        if (ny+nh < cy || ny > cy+ch || nx > cx+cw || nx+nw < cx ) {
+            $("#win").animate({
+                height: 'toggle'
+            });
+        }
+    });
 
 });

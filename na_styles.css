@@ -17,13 +17,13 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    margin-top: 0px;
+    margin-top: 0%;
 }
 #copimg {
     position: relative;
     height: 100px;
     width: 100px;
-    margin-top: 200%;
+    margin-top: 0px;
 }
 
 body {
